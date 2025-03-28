@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import '../stylesheet/List.css'
 
-const UsersList = () => {
+const List = () => {
     const [users, setUsers] = useState([]);
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
@@ -181,4 +181,4 @@ const UsersList = () => {
     );
 };
 
-export default UsersList;
+export default List;
