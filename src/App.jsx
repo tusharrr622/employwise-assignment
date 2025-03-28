@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './components/login';
-import List from './components/list';
+import Login from './components/login.jsx';
+import List from './components/list.jsx';
 
 
 function App() {
